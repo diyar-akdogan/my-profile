@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet);
+
+body {
+	background-color: #a6f6f1;
+	color: #213e3b;
+	font-family: Lato;
+}
+
+
+h1, h2 {
+	font-family: Regular400
+}
+
+
+h1 {
+	font-weight: 400;
+	color: #213e3b
+	text-transform: uppercase;
+}
+
+h2 {
+	color: cadetblue;
+	font-weight: 600;
+	letter-spacing: 7px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+p {
+	color: #213e3b;
+    font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: #060930;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #d5b2d1;
+}
+
+
+/* Design with div id class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.btn-blue {
+	background-color: #a6f6f1;
+	color: White; 
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.btn-blue:hover {
+	background-color: #1d106e;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #0986e6;
+}
+
+#Instagram-rose {
+	color: #dd4d4c;
+}
+#Instagram-rose:hover {
+	color: #1d106e;
+}
+
+#linkedin-blue {
+	color: #0270ad;
+}
+#linkedin-blue:hover {
+	color: #1d106e;
+}
+
+#Introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
